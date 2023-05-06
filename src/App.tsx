@@ -4,7 +4,7 @@ import Detail from './pages/Detail'
 
 function App() {
   return (
-    <div className="App">
+    <div className="min-h-screen bg-slate-800 text-white p-2">
        <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/:name' element={<Detail/>}/>
